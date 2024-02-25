@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Equation</title>
+  </head>
+  <body>
+    <script>
+      let a = prompt("Input a");
+      let b = prompt("Input b");
+      let x;
+      if (!isNaN(a) && !isNaN(b)) {
+        if (a != 0) {
+          x = -(b / a);
+          alert(x);
+        } 
+        else alert("a can't be 0");
+      } 
+      else {
+        alert("Error");
+      }
+    </script>
+  </body>
+</html>
